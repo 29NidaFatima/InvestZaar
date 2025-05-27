@@ -20,8 +20,6 @@ export const Navbar = () => {
         <a href="#" className="hover:text-black transition">Pricing</a>
         <a href="#" className="hover:text-black transition">Support</a>
       </nav>
-
-
     </header>
   );
 };
