@@ -107,6 +107,7 @@ export const Footer = () => {
           <p className="mt-4">
             Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please create a ticket here.
           </p>
+          
           <p className="mt-4 font-medium text-sm text-center text-gray-500">
             NSE&nbsp;&nbsp; BSE&nbsp;&nbsp; MCX&nbsp;&nbsp; Terms & conditions&nbsp;&nbsp; Policies & procedures&nbsp;&nbsp; Privacy policy&nbsp;&nbsp; Disclosure&nbsp;&nbsp; For investor's attention&nbsp;&nbsp; Investor charter
           </p>
