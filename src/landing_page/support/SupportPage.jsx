@@ -1,15 +1,20 @@
-import React from 'react'
-import { Navbar } from '../Navbar'
-import { Hero } from './Hero'
-import { CreateTicket } from './CreateTicket'
-import { Footer } from '../Footer'
-export const SupportPage = () => {
+import React from 'react';
+import { Navbar } from '../Navbar';
+import { Hero } from './Hero';
+import { CreateTicket } from './CreateTicket';
+import { Footer } from '../Footer';
+
+const SupportPage = () => {
   return (
-  <>
-    <Navbar/>
-    <Hero/>
-    <CreateTicket/>
-    <Footer/>
-  </>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+      <CreateTicket />
+      <Footer />
+    </>
+  );
+};
+
+export default SupportPage;
+
+

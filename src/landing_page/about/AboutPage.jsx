@@ -1,16 +1,19 @@
 import React from 'react'
-import {Navbar} from '../Navbar'
-import { Team } from './Hero'
-import { Team } from './Team'
-import {Footer} from '../Footer'
+import { Navbar } from '../Navbar'
+import { Hero } from './Hero'
+import {Team} from './Team'
+import { Footer } from '../Footer'
 
-export const AboutPage = () => {
+const AboutPage = () => {
   return (
   <>
-<Navbar/>
-<Hero/>
-<Team/>
-<Footer/>
+    <Navbar/>
+    <Hero/>
+    <Team/>
+    <Footer/>
   </>
   )
 }
+
+export default AboutPage
+

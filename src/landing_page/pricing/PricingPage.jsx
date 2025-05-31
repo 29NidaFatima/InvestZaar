@@ -1,17 +1,18 @@
-import React from 'react'
-import { Navbar } from '../Navbar'
-import { Hero } from './Hero'
-import { Brokerage } from './Brokerage'
-import { Footer } from '../Footer'
+import React from 'react';
+import { Navbar } from '../Navbar';
+import { Hero } from './Hero';
+import { Brokerage } from './Brokerage';
+import { Footer } from '../Footer';
 
-export const PricingPage = () => {
+const PricingPage = () => {
   return (
-  <>
-    <Navbar/>
-    <Hero/>
-    <Brokerage/>
-    <Footer/>
+    <>
+      <Navbar />
+      <Hero />
+      <Brokerage />
+      <Footer />
+    </>
+  );
+};
 
-  </>
-  )
-}
+export default PricingPage;
