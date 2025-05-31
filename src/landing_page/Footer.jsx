@@ -20,7 +20,7 @@ export const Footer = () => {
             <div>
               <img
                 src="/assets/logo.svg"
-                alt="Zerodha Logo"
+                alt="Investzaar Logo"
                 className="h-6"
               />
             </div>
