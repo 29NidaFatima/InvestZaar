@@ -7,16 +7,19 @@ import { Education } from './Education'
 import { OpenAccount } from '../OpenAccount'
 import { Footer } from '../Footer'
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <>
-        <Navbar/>
-      <Hero/>
-<Awards/>
-<Pricing/>
-<Education/>
-<OpenAccount/>
-<Footer/>
+      <Navbar />
+      <Hero />
+      <Awards />
+      <Pricing />
+      <Education />
+      <OpenAccount />
+      <Footer />
     </>
-  )
-}
+  );
+};
+
+export default HomePage;
+
