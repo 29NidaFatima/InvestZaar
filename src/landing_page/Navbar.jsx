@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -7,16 +8,16 @@ export const Navbar = () => {
         <img
           src="/assets/logo.svg"
           alt="InvestzaarLogo"
-          className="h-16 w-auto" // Increased to h-14 (56px)
-          style={{ minWidth: '120px' }} // Ensures minimum width
+          className="h-16 w-auto"
+          style={{ minWidth: '120px' }}
         />
       </div>
       <nav className="hidden md:flex items-center space-x-10 text-gray-300 text-base font-medium">
-        <a href="#" className="hover:text-white transition-colors duration-200">Signup</a>
-        <a href="#" className="hover:text-white transition-colors duration-200">About</a>
-        <a href="#" className="hover:text-white transition-colors duration-200">Products</a>
-        <a href="#" className="hover:text-white transition-colors duration-200">Pricing</a>
-        <a href="#" className="hover:text-white transition-colors duration-200">Support</a>
+        <Link to="/signup" className="hover:text-white transition-colors duration-200">Signup</Link>
+        <Link to="/about" className="hover:text-white transition-colors duration-200">About</Link>
+        <Link to="/product" className="hover:text-white transition-colors duration-200">Products</Link>
+        <Link to="/pricing" className="hover:text-white transition-colors duration-200">Pricing</Link>
+        <Link to="/support" className="hover:text-white transition-colors duration-200">Support</Link>
       </nav>
     </header>
   );
