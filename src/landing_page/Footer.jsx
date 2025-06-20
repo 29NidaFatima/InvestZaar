@@ -18,11 +18,11 @@ export const Footer = () => {
           {/* Logo and Social Icons */}
           <div className="mb-8 md:mb-0 md:w-1/5">
             <div>
-              <img
-                src="/assets/logo.svg"
-                alt="Investzaar Logo"
-                className="h-16 w-auto"
-              />
+           <img
+  src="/assets/logo.png"
+  alt="Investzaar Logo"
+  className="h-39 w-auto" 
+/>
             </div>
             <p className="mt-4 text-sm">
               &copy; 2010 - 2025, Investzaar Broking Ltd.<br />All rights reserved.
