@@ -14,7 +14,7 @@ export const Hero = () => {
         </div>
       </section>
 
-      <hr className="border border-gray-200" />
+ <hr className="border border-gray-200 mx-6 md:mx-24" />
 
       {/* Company History Section */}
       <section className="bg-white px-6 md:px-24 py-24 text-gray-800">
@@ -76,6 +76,8 @@ export const Hero = () => {
           </div>
         </div>
       </section>
+      
+      <hr className="border border-gray-200 mx-6 md:mx-24" />
     </>
   );
 };

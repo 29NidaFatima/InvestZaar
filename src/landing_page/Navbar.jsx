@@ -10,7 +10,7 @@ export const Navbar = () => {
           <img
             src="/assets/logo.png"
             alt="Investzaar Logo"
-            className="h-18 w-auto object-contain"
+            className="h-14 w-auto object-contain"
             style={{ minWidth: '140px' }}
           />
         </Link>
