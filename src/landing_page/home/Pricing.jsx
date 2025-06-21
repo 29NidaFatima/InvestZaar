@@ -8,11 +8,10 @@ export const Pricing = () => {
         {/* Left Section */}
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-4xl font-semibold text-gray-800">
-            Unbeatable pricing
+Pricing that speaks for itself
           </h1>
           <p className="text-gray-600 text-lg">
-            We pioneered the concept of discount broking and price transparency in India.
-            Flat fees and no hidden charges.
+Investzaar set a new standard in the industry by introducing flat pricing and eliminating hidden charges. Because trust starts with clarity.
           </p>
           <a
             href="#"
