@@ -17,12 +17,11 @@ export const Education = () => {
         {/* Right Text Section */}
         <div className="md:w-1/2">
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6 text-center md:text-left">
-            Free and open market education
+            Learn investing, the simple way
           </h2>
 
           <p className="text-gray-700 text-lg mb-2">
-            Varsity, the largest online stock market education book in the world
-            covering everything from the basics to advanced trading.
+            Explore Investzaar Learn your go-to guide to understand the stock market from scratch. Whether you're a beginner or want to sharpen your skills, we make learning easy and practical.
           </p>
           <a
             href="#"
@@ -34,12 +33,11 @@ export const Education = () => {
             onMouseOver={(e) => (e.target.style.color = 'rgb(66, 66, 66)')}
             onMouseOut={(e) => (e.target.style.color = 'rgb(56, 126, 209)')}
           >
-            Varsity <span className="ml-1">→</span>
+            Investzaar Learn <span className="ml-1">→</span>
           </a>
 
           <p className="text-gray-700 text-lg mb-2">
-            TradingQ&A, the most active trading and investment community in India
-            for all your market related queries.
+            Have questions? Join the Investzaar Community  a space where real investors and traders connect, ask, and share ideas every day.
           </p>
           <a
             href="#"
@@ -51,7 +49,7 @@ export const Education = () => {
             onMouseOver={(e) => (e.target.style.color = 'rgb(66, 66, 66)')}
             onMouseOut={(e) => (e.target.style.color = 'rgb(56, 126, 209)')}
           >
-            TradingQ&A <span className="ml-1">→</span>
+            Community Forum <span className="ml-1">→</span>
           </a>
         </div>
       </div>

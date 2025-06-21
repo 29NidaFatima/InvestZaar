@@ -8,7 +8,7 @@ export const Awards = () => {
         {/* Left Side */}
         <div className="flex-1 space-y-6">
           <h1 className="text-4xl font-semibold text-gray-800">
-            Trust with confidence
+            Built on Trust
           </h1>
 
           <div>
@@ -16,16 +16,16 @@ export const Awards = () => {
               Customer-first always
             </h2>
             <p className="text-gray-600">
-              That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.
+              At Investzaar,our customer-first philosophy has earned the confidence of over 1.6 crore investors who collectively hold ₹6+ lakh crores in equity investments ,contributing to 15% of daily retail trading volumes in India.
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-medium text-gray-700 mb-1">
-              No spam or gimmicks
+              No Noise. Just Value.
             </h2>
             <p className="text-gray-600">
-              No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.{' '}
+              Forget gimmicks, spam, or flashy distractions. Investzaar delivers a clean, focused experience no push notifications, no “gamified” tricks. Just seamless tools that work the way <em>you</em> want.{' '}
               <span
                 className="cursor-pointer"
                 style={{
@@ -42,10 +42,10 @@ export const Awards = () => {
 
           <div>
             <h2 className="text-2xl font-medium text-gray-700 mb-1">
-              Do better with money
+              Smarter Investing, Together
             </h2>
             <p className="text-gray-600">
-              With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.
+              With thoughtful features like Nudge and Kill Switch, we go beyond transactions,empowering you to make mindful, informed financial decisions that support your long-term goals.
             </p>
           </div>
         </div>
@@ -54,12 +54,12 @@ export const Awards = () => {
         <div className="flex-1 flex flex-col items-center md:items-start">
           <img
             src="/assets/ecosystem.png"
-            alt="Zerodha Ecosystem"
+            alt="Investzaar Ecosystem"
             className="w-full h-auto max-w-xxl mb-6"
           />
 
           <div className="flex gap-6">
-            {['Explore our products', 'Try Kite demo'].map((text, index) => (
+            {['Explore our products', 'Try Investzaar demo'].map((text, index) => (
               <a
                 key={index}
                 href="#"
