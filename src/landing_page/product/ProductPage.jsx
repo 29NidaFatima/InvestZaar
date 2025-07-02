@@ -48,10 +48,10 @@ export const ProductPage = () => {
         appStore="#"
       />
       {/* Centered paragraph */}
-      <p className="text-center mt-10 mb-15 text-gray-900 text-lg"> {/* Added text-center, mt-12, mb-20, text-lg, text-gray-700 */}
-        Want to know more about our technology stack? Check out the{' '}
-        <a href="#" className="text-[#387ed1]  ">InvestZaar.tech</a> blog.
-      </p>
+    <p className="text-center text-gray-600 mt-6 mb-10 text-xl">
+  Want to know more about our technology stack? Check out the{' '}
+  <a href="#" className="text-[#387ed1]">InvestZaar.tech</a> blog.
+</p>
       <Universe />
     </>
   );
