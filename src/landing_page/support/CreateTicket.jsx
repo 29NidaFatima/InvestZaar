@@ -14,7 +14,7 @@ export const CreateTicket = () => {
             <h3 className="font-medium text-lg flex items-center gap-2 mb-4">
               <span>➕</span> Account Opening
             </h3>
-            <ul className="text-[#0073e6] space-y-2 text-sm">
+            <ul className="text-[#0073e6] space-y-2 text-base">
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Resident individual</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Minor</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Non Resident Indian (NRI)</a></li>
@@ -28,7 +28,7 @@ export const CreateTicket = () => {
             <h3 className="font-medium text-lg flex items-center gap-2 mb-4">
               <span>👤</span> Your InvestZaar Account
             </h3>
-            <ul className="text-[#0073e6] space-y-2 text-sm">
+            <ul className="text-[#0073e6] space-y-2 text-base">
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Your Profile</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Account modification</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Client Master Report (CMR)</a></li>
@@ -42,7 +42,7 @@ export const CreateTicket = () => {
             <h3 className="font-medium text-lg flex items-center gap-2 mb-4">
               <span>📊</span> Kite
             </h3>
-            <ul className="text-[#0073e6] space-y-2 text-sm">
+            <ul className="text-[#0073e6] space-y-2 text-base">
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">IPO</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Trading FAQs</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">MTF & Margins</a></li>
@@ -57,7 +57,7 @@ export const CreateTicket = () => {
             <h3 className="font-medium text-lg flex items-center gap-2 mb-4">
               <span>💳</span> Funds
             </h3>
-            <ul className="text-[#0073e6] space-y-2 text-sm">
+            <ul className="text-[#0073e6] space-y-2 text-base">
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Add money</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Withdraw money</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Add bank accounts</a></li>
@@ -69,7 +69,7 @@ export const CreateTicket = () => {
             <h3 className="font-medium text-lg flex items-center gap-2 mb-4">
               <span>🌀</span> Console
             </h3>
-            <ul className="text-[#0073e6] space-y-2 text-sm">
+            <ul className="text-[#387ed1] space-y-2 text-base">
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Portfolio</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Corporate actions</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Funds statement</a></li>
@@ -79,16 +79,17 @@ export const CreateTicket = () => {
 
           {/* Column 6: Coin */}
           <div>
-            <h3 className="font-medium text-xxl flex items-center gap-2 mb-4">
+            <h3 className="font-medium text-lg flex items-center gap-2 mb-4">
               <span>💰</span> Coin
             </h3>
-            <ul className="text-[#0073e6] space-y-2 text-xxl">
+            <ul className="text-[#387ed1] space-y-2 text-base">
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Mutual funds</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">NPS</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">FD</a></li>
               <li><a href="#" className="hover:text-[rgb(66,66,66)]">Features on Coin</a></li>
             </ul>
           </div>
+
         </div>
       </div>
     </section>
